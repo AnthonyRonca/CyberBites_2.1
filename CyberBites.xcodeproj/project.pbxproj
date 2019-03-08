@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0267DAC77B2FBA2049D0A778 /* Pods_CyberBitesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C0687A1D4B41157F9CC6B3 /* Pods_CyberBitesUITests.framework */; };
+		15E9EB4AC60FB6CF66DEB1EC /* Pods_CyberBites.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 742928C65572A19EF4C04B50 /* Pods_CyberBites.framework */; };
+		4CC8F3DEA01A50626002DDB1 /* Pods_CyberBitesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE781ACD1C27CE85FD86058 /* Pods_CyberBitesTests.framework */; };
 		BD9AFBF52230DA9700A5868E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9AFBF42230DA9700A5868E /* AppDelegate.swift */; };
-		BD9AFBF72230DA9700A5868E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9AFBF62230DA9700A5868E /* ViewController.swift */; };
 		BD9AFBFA2230DA9700A5868E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD9AFBF82230DA9700A5868E /* Main.storyboard */; };
 		BD9AFBFC2230DA9800A5868E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD9AFBFB2230DA9800A5868E /* Assets.xcassets */; };
 		BD9AFBFF2230DA9800A5868E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD9AFBFD2230DA9800A5868E /* LaunchScreen.storyboard */; };
 		BD9AFC0A2230DA9800A5868E /* CyberBitesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9AFC092230DA9800A5868E /* CyberBitesTests.swift */; };
 		BD9AFC152230DA9800A5868E /* CyberBitesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9AFC142230DA9800A5868E /* CyberBitesUITests.swift */; };
+		BD9AFC232231F5B100A5868E /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9AFC222231F5B100A5868E /* FeedViewController.swift */; };
+		BD9AFC252231F5B400A5868E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9AFC242231F5B400A5868E /* LoginViewController.swift */; };
+		BD9AFC272231FAD500A5868E /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9AFC262231FAD500A5868E /* CameraViewController.swift */; };
+		BD9AFC2B22320CFF00A5868E /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9AFC2A22320CFF00A5868E /* PostCell.swift */; };
+		BD9AFC2D223233B400A5868E /* Ultra.otf in Resources */ = {isa = PBXBuildFile; fileRef = BD9AFC2C223233B400A5868E /* Ultra.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BE781ACD1C27CE85FD86058 /* Pods_CyberBitesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CyberBitesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E435EC7A838F2C464807308 /* Pods-CyberBitesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CyberBitesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CyberBitesTests/Pods-CyberBitesTests.release.xcconfig"; sourceTree = "<group>"; };
+		360FAEC24D93339EDAD77BF1 /* Pods-CyberBitesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CyberBitesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CyberBitesUITests/Pods-CyberBitesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		742928C65572A19EF4C04B50 /* Pods_CyberBites.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CyberBites.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87753ED3CE1743B6AA94AD13 /* Pods-CyberBites.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CyberBites.release.xcconfig"; path = "Pods/Target Support Files/Pods-CyberBites/Pods-CyberBites.release.xcconfig"; sourceTree = "<group>"; };
 		BD9AFBF12230DA9700A5868E /* CyberBites.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CyberBites.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD9AFBF42230DA9700A5868E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BD9AFBF62230DA9700A5868E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BD9AFBF92230DA9700A5868E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD9AFBFB2230DA9800A5868E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD9AFBFE2230DA9800A5868E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +58,15 @@
 		BD9AFC102230DA9800A5868E /* CyberBitesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CyberBitesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD9AFC142230DA9800A5868E /* CyberBitesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyberBitesUITests.swift; sourceTree = "<group>"; };
 		BD9AFC162230DA9800A5868E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD9AFC222231F5B100A5868E /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeedViewController.swift; path = "/Users/anthonyronca/OneDrive - College of Southern Nevada/Spring2019/CodePath IOS Development/CyberBites/CyberBites/FeedViewController.swift"; sourceTree = "<absolute>"; };
+		BD9AFC242231F5B400A5868E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = "/Users/anthonyronca/OneDrive - College of Southern Nevada/Spring2019/CodePath IOS Development/CyberBites/CyberBites/LoginViewController.swift"; sourceTree = "<absolute>"; };
+		BD9AFC262231FAD500A5868E /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		BD9AFC2A22320CFF00A5868E /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PostCell.swift; path = ../PostCell.swift; sourceTree = "<group>"; };
+		BD9AFC2C223233B400A5868E /* Ultra.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ultra.otf; path = ../../../../../Downloads/Ultra/Ultra.otf; sourceTree = "<group>"; };
+		C1C0687A1D4B41157F9CC6B3 /* Pods_CyberBitesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CyberBitesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3B9DF164B49C152C57210B8 /* Pods-CyberBitesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CyberBitesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CyberBitesTests/Pods-CyberBitesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF852884B3E98022D2D89242 /* Pods-CyberBites.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CyberBites.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CyberBites/Pods-CyberBites.debug.xcconfig"; sourceTree = "<group>"; };
+		E30E1ED28DA0DE85FACA0907 /* Pods-CyberBitesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CyberBitesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CyberBitesUITests/Pods-CyberBitesUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15E9EB4AC60FB6CF66DEB1EC /* Pods_CyberBites.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CC8F3DEA01A50626002DDB1 /* Pods_CyberBitesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +90,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0267DAC77B2FBA2049D0A778 /* Pods_CyberBitesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36AC59B34502BC8E0B75FF3C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF852884B3E98022D2D89242 /* Pods-CyberBites.debug.xcconfig */,
+				87753ED3CE1743B6AA94AD13 /* Pods-CyberBites.release.xcconfig */,
+				C3B9DF164B49C152C57210B8 /* Pods-CyberBitesTests.debug.xcconfig */,
+				1E435EC7A838F2C464807308 /* Pods-CyberBitesTests.release.xcconfig */,
+				360FAEC24D93339EDAD77BF1 /* Pods-CyberBitesUITests.debug.xcconfig */,
+				E30E1ED28DA0DE85FACA0907 /* Pods-CyberBitesUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BD9AFBE82230DA9600A5868E = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +117,8 @@
 				BD9AFC082230DA9800A5868E /* CyberBitesTests */,
 				BD9AFC132230DA9800A5868E /* CyberBitesUITests */,
 				BD9AFBF22230DA9700A5868E /* Products */,
+				36AC59B34502BC8E0B75FF3C /* Pods */,
+				C79030EDF8084BA1EE200B78 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +135,16 @@
 		BD9AFBF32230DA9700A5868E /* CyberBites */ = {
 			isa = PBXGroup;
 			children = (
+				BD9AFC2A22320CFF00A5868E /* PostCell.swift */,
+				BD9AFC242231F5B400A5868E /* LoginViewController.swift */,
+				BD9AFC222231F5B100A5868E /* FeedViewController.swift */,
 				BD9AFBF42230DA9700A5868E /* AppDelegate.swift */,
-				BD9AFBF62230DA9700A5868E /* ViewController.swift */,
 				BD9AFBF82230DA9700A5868E /* Main.storyboard */,
+				BD9AFC262231FAD500A5868E /* CameraViewController.swift */,
 				BD9AFBFB2230DA9800A5868E /* Assets.xcassets */,
 				BD9AFBFD2230DA9800A5868E /* LaunchScreen.storyboard */,
 				BD9AFC002230DA9800A5868E /* Info.plist */,
+				BD9AFC2C223233B400A5868E /* Ultra.otf */,
 			);
 			path = CyberBites;
 			sourceTree = "<group>";
@@ -125,6 +167,16 @@
 			path = CyberBitesUITests;
 			sourceTree = "<group>";
 		};
+		C79030EDF8084BA1EE200B78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				742928C65572A19EF4C04B50 /* Pods_CyberBites.framework */,
+				1BE781ACD1C27CE85FD86058 /* Pods_CyberBitesTests.framework */,
+				C1C0687A1D4B41157F9CC6B3 /* Pods_CyberBitesUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD9AFC192230DA9800A5868E /* Build configuration list for PBXNativeTarget "CyberBites" */;
 			buildPhases = (
+				E4A373C0CFD89C2E06CD69B1 /* [CP] Check Pods Manifest.lock */,
 				BD9AFBED2230DA9700A5868E /* Sources */,
 				BD9AFBEE2230DA9700A5868E /* Frameworks */,
 				BD9AFBEF2230DA9700A5868E /* Resources */,
+				A0F71CDDCE04EE693A1AEF21 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD9AFC1C2230DA9800A5868E /* Build configuration list for PBXNativeTarget "CyberBitesTests" */;
 			buildPhases = (
+				D324AB3AB91704E22F5DC3EF /* [CP] Check Pods Manifest.lock */,
 				BD9AFC012230DA9800A5868E /* Sources */,
 				BD9AFC022230DA9800A5868E /* Frameworks */,
 				BD9AFC032230DA9800A5868E /* Resources */,
@@ -167,6 +222,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD9AFC1F2230DA9800A5868E /* Build configuration list for PBXNativeTarget "CyberBitesUITests" */;
 			buildPhases = (
+				166E2DC1435EF96FAF8D109B /* [CP] Check Pods Manifest.lock */,
 				BD9AFC0C2230DA9800A5868E /* Sources */,
 				BD9AFC0D2230DA9800A5868E /* Frameworks */,
 				BD9AFC0E2230DA9800A5868E /* Resources */,
@@ -229,6 +285,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD9AFC2D223233B400A5868E /* Ultra.otf in Resources */,
 				BD9AFBFF2230DA9800A5868E /* LaunchScreen.storyboard in Resources */,
 				BD9AFBFC2230DA9800A5868E /* Assets.xcassets in Resources */,
 				BD9AFBFA2230DA9700A5868E /* Main.storyboard in Resources */,
@@ -251,13 +308,113 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		166E2DC1435EF96FAF8D109B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CyberBitesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0F71CDDCE04EE693A1AEF21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CyberBites/Pods-CyberBites-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CyberBites/Pods-CyberBites-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D324AB3AB91704E22F5DC3EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CyberBitesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4A373C0CFD89C2E06CD69B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CyberBites-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BD9AFBED2230DA9700A5868E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD9AFBF72230DA9700A5868E /* ViewController.swift in Sources */,
+				BD9AFC252231F5B400A5868E /* LoginViewController.swift in Sources */,
+				BD9AFC272231FAD500A5868E /* CameraViewController.swift in Sources */,
+				BD9AFC232231F5B100A5868E /* FeedViewController.swift in Sources */,
 				BD9AFBF52230DA9700A5868E /* AppDelegate.swift in Sources */,
+				BD9AFC2B22320CFF00A5868E /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +587,7 @@
 		};
 		BD9AFC1A2230DA9800A5868E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF852884B3E98022D2D89242 /* Pods-CyberBites.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +606,7 @@
 		};
 		BD9AFC1B2230DA9800A5868E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87753ED3CE1743B6AA94AD13 /* Pods-CyberBites.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +625,7 @@
 		};
 		BD9AFC1D2230DA9800A5868E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3B9DF164B49C152C57210B8 /* Pods-CyberBitesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +647,7 @@
 		};
 		BD9AFC1E2230DA9800A5868E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E435EC7A838F2C464807308 /* Pods-CyberBitesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +669,7 @@
 		};
 		BD9AFC202230DA9800A5868E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 360FAEC24D93339EDAD77BF1 /* Pods-CyberBitesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +690,7 @@
 		};
 		BD9AFC212230DA9800A5868E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E30E1ED28DA0DE85FACA0907 /* Pods-CyberBitesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

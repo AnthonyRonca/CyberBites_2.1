@@ -21,6 +21,9 @@
 		BD9AFC272231FAD500A5868E /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9AFC262231FAD500A5868E /* CameraViewController.swift */; };
 		BD9AFC2B22320CFF00A5868E /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9AFC2A22320CFF00A5868E /* PostCell.swift */; };
 		BD9AFC2D223233B400A5868E /* Ultra.otf in Resources */ = {isa = PBXBuildFile; fileRef = BD9AFC2C223233B400A5868E /* Ultra.otf */; };
+		BD9AFC2F223488B200A5868E /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9AFC2E223488B200A5868E /* CommentCell.swift */; };
+		BD9AFC312236E68400A5868E /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9AFC302236E68400A5868E /* GradientView.swift */; };
+		BD9AFC342237059C00A5868E /* Rocket Rinder.otf in Resources */ = {isa = PBXBuildFile; fileRef = BD9AFC332237059C00A5868E /* Rocket Rinder.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +66,9 @@
 		BD9AFC262231FAD500A5868E /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		BD9AFC2A22320CFF00A5868E /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PostCell.swift; path = ../PostCell.swift; sourceTree = "<group>"; };
 		BD9AFC2C223233B400A5868E /* Ultra.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ultra.otf; path = ../../../../../Downloads/Ultra/Ultra.otf; sourceTree = "<group>"; };
+		BD9AFC2E223488B200A5868E /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		BD9AFC302236E68400A5868E /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GradientView.swift; path = ../../../../../Desktop/GradientView.swift; sourceTree = "<group>"; };
+		BD9AFC332237059C00A5868E /* Rocket Rinder.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Rocket Rinder.otf"; path = "../../../../../Downloads/chequered-ink_rocket-rinder-2/Rocket Rinder.otf"; sourceTree = "<group>"; };
 		C1C0687A1D4B41157F9CC6B3 /* Pods_CyberBitesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CyberBitesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3B9DF164B49C152C57210B8 /* Pods-CyberBitesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CyberBitesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CyberBitesTests/Pods-CyberBitesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CF852884B3E98022D2D89242 /* Pods-CyberBites.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CyberBites.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CyberBites/Pods-CyberBites.debug.xcconfig"; sourceTree = "<group>"; };
@@ -135,15 +141,18 @@
 		BD9AFBF32230DA9700A5868E /* CyberBites */ = {
 			isa = PBXGroup;
 			children = (
+				BD9AFC302236E68400A5868E /* GradientView.swift */,
 				BD9AFC2A22320CFF00A5868E /* PostCell.swift */,
 				BD9AFC242231F5B400A5868E /* LoginViewController.swift */,
 				BD9AFC222231F5B100A5868E /* FeedViewController.swift */,
 				BD9AFBF42230DA9700A5868E /* AppDelegate.swift */,
 				BD9AFBF82230DA9700A5868E /* Main.storyboard */,
+				BD9AFC2E223488B200A5868E /* CommentCell.swift */,
 				BD9AFC262231FAD500A5868E /* CameraViewController.swift */,
 				BD9AFBFB2230DA9800A5868E /* Assets.xcassets */,
 				BD9AFBFD2230DA9800A5868E /* LaunchScreen.storyboard */,
 				BD9AFC002230DA9800A5868E /* Info.plist */,
+				BD9AFC332237059C00A5868E /* Rocket Rinder.otf */,
 				BD9AFC2C223233B400A5868E /* Ultra.otf */,
 			);
 			path = CyberBites;
@@ -287,6 +296,7 @@
 			files = (
 				BD9AFC2D223233B400A5868E /* Ultra.otf in Resources */,
 				BD9AFBFF2230DA9800A5868E /* LaunchScreen.storyboard in Resources */,
+				BD9AFC342237059C00A5868E /* Rocket Rinder.otf in Resources */,
 				BD9AFBFC2230DA9800A5868E /* Assets.xcassets in Resources */,
 				BD9AFBFA2230DA9700A5868E /* Main.storyboard in Resources */,
 			);
@@ -343,6 +353,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageInputBar/MessageInputBar.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -352,6 +363,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageInputBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,7 +426,9 @@
 				BD9AFC272231FAD500A5868E /* CameraViewController.swift in Sources */,
 				BD9AFC232231F5B100A5868E /* FeedViewController.swift in Sources */,
 				BD9AFBF52230DA9700A5868E /* AppDelegate.swift in Sources */,
+				BD9AFC312236E68400A5868E /* GradientView.swift in Sources */,
 				BD9AFC2B22320CFF00A5868E /* PostCell.swift in Sources */,
+				BD9AFC2F223488B200A5868E /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

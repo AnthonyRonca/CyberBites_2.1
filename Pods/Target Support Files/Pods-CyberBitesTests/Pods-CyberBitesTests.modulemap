@@ -1,0 +1,6 @@
+framework module Pods_CyberBitesTests {
+  umbrella header "Pods-CyberBitesTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

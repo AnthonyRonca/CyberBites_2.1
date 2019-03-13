@@ -17,7 +17,7 @@ The following **required** functionality is completed:
 - [ x ] User can view comments on a post. (3pts)
 - [ x ] User can add a new comment. (5pts)
 
-The following **bonus** features are implemented:
+The following **bonus** features 3ppVYZn.gifare implemented:
 q50YPUprpV.gif
 - [ ] User can add a profile picture. (2pts)
 - [ ] Profile pictures are shown for posts and comments. (2pts)
@@ -26,7 +26,7 @@ q50YPUprpV.gif
 
 Here's a walkthrough of implemented user stories:
 
-<img src ="https://i.imgur.com/3ppVYZn.gif" width=300><br>
+<img src ="http://g.recordit.co/KpxAUcw04H.gif" width=300><br>
 
 # CyberBites
 A CyberPunk retro themed Instagram clone that demonstrates knowledge of frameworks and API's.

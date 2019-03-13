@@ -28,6 +28,11 @@ Here's a walkthrough of implemented user stories:
 
 <img src ="http://g.recordit.co/KpxAUcw04H.gif" width=300><br>
 
+## Troubleshooting content length exceeded in Github
+
+  Use this walkthrough for now please:
+  https://youtu.be/bc2G3BNT2Do
+
 # CyberBites
 A CyberPunk retro themed Instagram clone that demonstrates knowledge of frameworks and API's.
 

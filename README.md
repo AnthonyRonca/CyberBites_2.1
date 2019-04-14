@@ -3,7 +3,7 @@
 # Parstagram - Part II
 
 This is an Instagram clone with a custom Parse backend that allows a user to post photos, view a global photos feed, and add comments!
-The excercise demonstrates my knowledge of utilizing a Parse server. Following the theme of "CyberPunk" and "Retrowave" since one of 
+The excercise demonstrates my knowledge of utilizing a Parse server, as well as implementing cocoa pods and queries. Following the theme of "CyberPunk" and "Retrowave" since one of 
 my hobbies is working on cars.
 
 Time spent: 8 hours spent in total
@@ -17,10 +17,6 @@ The following **required** functionality is completed:
 - [ x ] User can view comments on a post. (3pts)
 - [ x ] User can add a new comment. (5pts)
 
-The following **bonus** features 3ppVYZn.gifare implemented:
-q50YPUprpV.gif
-- [ ] User can add a profile picture. (2pts)
-- [ ] Profile pictures are shown for posts and comments. (2pts)
 
 ## Video Walkthrough
 
@@ -54,8 +50,8 @@ The following **required** functionality is completed:
 
 The following **bonus** features are implemented:
 
-- [ ] User can pull to refresh. (1pt)
-- [ ] User can load past tweets infinitely. (2pts)
+- [x] User can pull to refresh. (1pt)
+- [x] User can load past tweets infinitely. (2pts)
 
 ## Video Walkthrough
 

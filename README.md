@@ -22,7 +22,7 @@ The following **required** functionality is completed:
 
 Here's a walkthrough of implemented user stories:
 
-<img src ="http://g.recordit.co/KpxAUcw04H.gif" width=300><br>
+<img src ="KpxAUcw04H.gif" width=300><br>
 
 ## Troubleshooting content length exceeded in Github
 

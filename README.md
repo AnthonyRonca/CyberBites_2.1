@@ -24,7 +24,7 @@ Here's a walkthrough of implemented user stories:
 
 <img src ="KpxAUcw04H.gif" width=300><br>
 
-## Troubleshooting content length exceeded in Github
+##  Content length exceeded in Github? Try the Youtube link!
 
   Use this walkthrough for now please:
   https://youtu.be/bc2G3BNT2Do
